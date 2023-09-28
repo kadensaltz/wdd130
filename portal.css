@@ -1,0 +1,20 @@
+body{
+    background-color: whitesmoke; 
+}
+nav {
+    display: flex;
+}
+#primary {
+    background-color: rgb(246, 237, 237);
+}
+a{
+    background-color: lightblue; 
+    color: rgb(71, 68, 69);
+    text-decoration: none;
+    padding: 10px; 
+    margin: 5px;
+}
+
+.background {
+    background-color: lightgrey; 
+}
