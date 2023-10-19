@@ -33,7 +33,7 @@ main section {
 
 body {
     background-color: azure;
-    font-family: 'Kanit', Garamond;
+    font-family: 'Kanit', Garamond, Verdana;
     font-size: 22px;
     margin: 0;
     padding: 0;
@@ -84,7 +84,7 @@ footer {
 .home-title {
     color: rgb(0, 0, 0);
     font-size: 3em;
-    font-family: 'Oswald', Garamond;
+    font-family: 'Oswald', Garamond, Verdana;
     margin-top: 10px;
 }
 
