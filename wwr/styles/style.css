@@ -55,6 +55,7 @@ header {
 nav {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 #hero {
@@ -213,6 +214,10 @@ main.selection.img {
 .card-img:hover {
     opacity: .6;
     transform: scale(1.1);
+}
+
+#hero-img {
+    width: 100%;
 }
 
 
