@@ -220,6 +220,46 @@ main.selection.img {
     width: 100%;
 }
 
+/* rivers */
+
+#rivers-grid {
+    grid-column: 1/11;
+    grid-row: 1/12;
+}
+
+#talkeetna-img {
+    width: 100%;
+    height: 100%;
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
+
+#nenana-img {
+    width: 100%;
+    height: 100%;
+    grid-template-columns: 8/10;
+    grid-template-rows: 5/7;
+}
+
+#yukon-img {
+    width: 100%;
+    height: 100%;
+    grid-column: 8/10;
+    grid-row: 2/4;
+}
+
+#talkeetna-card {
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
+
+
+
+
+
+
+
+
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
