@@ -77,15 +77,16 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size: large;
 }
 
 .social img {
     border-radius : 50%;
 }
 
-
 footer p:hover {
-    padding-bottom: 5px;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .dot {
@@ -97,7 +98,6 @@ footer p:hover {
     display: inline-block;
     transition: background-color 0.6s ease;
   }
-
 
   .active {
     background-color: #717171;
@@ -111,3 +111,35 @@ body {
     margin: 0;
 }
 
+.home_grid {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(13, 1fr);
+    width: 100%;
+}
+
+.slideshow_container img {
+    padding: 150px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.first_image {
+    grid-column: 1/5;
+    grid-row: 9/11;
+}
+
+.second_image {
+    grid-column: 6/9;
+    grid-row: 9/11;
+}
+
+.first_text {
+    grid-column: 3/9;
+    grid-row: 6/8;
+}
+
+.second_text {
+    grid-column: 3/9;
+    grid-row: 12/13;
+}

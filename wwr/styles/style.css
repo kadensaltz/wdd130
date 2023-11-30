@@ -47,7 +47,7 @@ h2 {
 }
 
 header {
-    background-color: rgb(230, 255, 255);
+    background-color: rgb(156, 255, 255);
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -107,7 +107,7 @@ nav a:hover {
 }
 
 footer {
-    background-color: #90E0EF;
+    background-color: rgb(156, 255, 255);
     color: black;
     padding: 25px 50px;
     margin-top: 200px;
@@ -270,28 +270,26 @@ main.selection.img {
     grid-column: 5/9;
     grid-row: 2/4;
     font-size: small;
+    padding-top: 20%;
 }
 
 .nenana-p {
     grid-column: 3/7;
     grid-row: 5/7;
     font-size: small;
+    padding-top: 20%;
 }
 
 .yukon-p {
     grid-column: 5/9;
     grid-row: 8/10;
     font-size: small;
+    padding-top: 20%;
 }
 
 .sources {
     text-align: center;
 }
-
-
-
-
-
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
