@@ -119,9 +119,8 @@ body {
 }
 
 .slideshow_container img {
-    padding: 150px;
-    width: 80%;
-    margin: 0 auto;
+    grid-column: 2/10;
+    grid-row: 2/5;
 }
 
 .first_image {
