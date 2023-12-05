@@ -229,11 +229,14 @@ main.selection.img {
 .rivers-grid {
     display: grid;
     grid-template-columns: repeat(11, 1fr);
-    grid-template-rows: repeat(12, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-bottom: -200px;
 }
 
 .talkeetna-img {
-    grid-column: 2/4;
+    grid-column: 3/5;
     grid-row: 2/4;
 }
 
@@ -252,7 +255,7 @@ main.selection.img {
 }
 
 .yukon-img {
-    grid-column: 2/4;
+    grid-column: 3/5;
     grid-row: 8/10;
 }
 
@@ -267,7 +270,7 @@ main.selection.img {
 }
 
 .talkeetna-p {
-    grid-column: 5/9;
+    grid-column: 6/10;
     grid-row: 2/4;
     font-size: small;
     padding-top: 20%;
@@ -281,7 +284,7 @@ main.selection.img {
 }
 
 .yukon-p {
-    grid-column: 5/9;
+    grid-column: 6/10;
     grid-row: 8/10;
     font-size: small;
     padding-top: 20%;
